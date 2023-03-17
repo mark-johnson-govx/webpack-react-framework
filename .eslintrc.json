@@ -5,7 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "xo"
+        "xo",
+        "plugin:cypress/recommended"
     ],
     "overrides": [
     ],
@@ -14,7 +15,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "cypress"
     ],
     "rules": {
         "indent": ["error", 2],
